@@ -4,3 +4,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* main */
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ddf0f6;
+  padding-top: 66px;
+}
+
+/* nav bar nav */
+.navbar-nav {
+  column-gap: 35px;
+  row-gap: 5px;
+}
+
+
+/* navi link */
+.nav-link {
+  padding: 0 !important;
+  padding: 2px 10px !important;
+  border-radius: 99999px;
+  font-size: 14px;
+}
+
+.nav-link.active {
+  background-color: #ddf0f6;
+}
+
+.nav-link:hover {
+  background-color: #ddf0f6;
+  transition: background-color 250ms linear;
+}
