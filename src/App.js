@@ -9,6 +9,11 @@ function App() {
     <div className="App">
       {/* Header */}
       <Header/>
+
+      {/* main */}
+      <main>
+        
+      </main>
     </div>
   );
 }
